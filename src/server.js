@@ -1,5 +1,5 @@
 import app from "./app";
 
-const port = 3001
+const port = process.env.APP_PORT
 
 app.listen(port, () => console.log(`Listening on port: ${port} Link: http://localhost:${port}`))
